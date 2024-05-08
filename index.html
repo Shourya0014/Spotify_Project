@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify- Your fav music listener</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Merriweather:wght@900&display=swap"
+        rel="stylesheet">
+       
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="spotifylogo1.png" alt="spotify"></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="contain">
+        <div class="playlist">
+            <h1>Listen to Spotify</h1>
+            <div class="contain_song">
+                
+                <div class="allsong">
+                    <img  alt="1" >
+                    <span class="songname">Bad Habits</span>
+                    <span class="songlist"><span class="time">03:52 <i id="0" class="moj fa-solid fa-circle-play fa-lg " style="color: black"></i></span></span>
+                </div>
+                
+                <div class="allsong">
+                    <img  alt="1" >
+                    <span class="songname">Bad Habits</span>
+                    <span class="songlist"><span class="time">03:52 <i id="0" class="moj fa-solid fa-circle-play fa-lg " style="color: black"></i></span></span>
+                </div> 
+                <div class="allsong">
+                    <img  alt="1" >
+                    <span class="songname">Bad Habits</span>
+                    <span class="songlist"><span class="time">00:41 <i id="1" class="moj fa-solid fa-circle-play fa-lg " style="color: black"></i></span></span>
+                </div> 
+                <div class="allsong">
+                    <img  alt="1" >
+                    <span class="songname">Bad Habits</span>
+                    <span class="songlist"><span class="time">03:34 <i id="2" class="moj fa-solid fa-circle-play fa-lg " style="color: black"></i></span></span>
+                </div> 
+                <div class="allsong">
+                    <img  alt="1" >
+                    <span class="songname">Bad Habits</span>
+                    <span class="songlist"><span class="time">03:38 <i id="3" class="moj fa-solid fa-circle-play fa-lg " style="color: black"></i></span></span>
+                </div>
+                
+                
+            </div>
+        </div>
+        <div class="banner"></div>
+    </div>
+    <div class="bottom">
+
+        <input type="range" name="range" id="mybar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- Fontawesome icons -->
+            <i class="fa-solid fa-backward fa-2x" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-backward-step fa-2x " id="previous" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-circle-play  fa-2x" style="color: #ffffff;" id="masterPlay"></i>
+            <i class="fa-solid fa-forward-step fa-2x" id="next" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-forward fa-2x" style="color: #ffffff;"></i>
+        </div>
+        <div class="gif">
+            <img src="sticker.webp" alt="" id="gif"> <span>Playing Song</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a6cc4a5976.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

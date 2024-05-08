@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Lobster&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap');
+
+
+body {
+    background-color: #828282;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    /* for align the items vertically not horizontally*/
+    height: 63px;
+    background-color: black;
+}
+
+nav li {
+    color: aliceblue;
+    padding: 0 15px;
+
+}
+
+.logo img {
+    width: 170px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.contain {
+    min-height: 67vh;
+    /* min height is use for moving the bottom class in bottom */
+    background-color: black;
+    color: white;
+    display: flex;
+    font-family: 'Arvo', serif;
+    width: 77%;
+    margin: 20px auto;
+    border-radius: 13px;
+    padding: 20px;
+    background: url(bg2.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.contain h1 {
+    font-family: Merriweather;
+
+}
+
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bottom input {
+    -webkit-appearance: none;
+    outline: none;
+    height: 4px;
+    border-radius: 10px;
+    background: #1ED760;
+}
+
+.icons {
+    margin-top: 3px;
+
+}
+
+.icons i {
+    cursor: pointer;
+    size: 30px;
+    margin: 10px;
+}
+
+#mybar {
+    text-align: center;
+    width: 80vw;
+    cursor: pointer;
+}
+
+.allsong {
+    height: 60px;
+    display: flex;
+    background-color:#ffff;
+    border-radius:40px;
+    border: 1px solid black;
+    width: 400px;
+    color: black;
+    margin: 29px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+   .contain_song{
+     
+    margin-top: 45px;
+   }
+.allsong img{
+    height: 80px;
+    width: 80px;
+   
+    /* margin: 0 2px; */
+    border-radius: 40px;
+}
+.time{
+    margin: 0 10px;
+}
+.time i{
+    cursor: pointer;
+
+}
+.gif{
+    position: absolute;
+    left: 8vw;
+    margin-top: 10px;
+}
+.gif span{
+    color: #ffff;
+}
+.gif img {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
